@@ -1,17 +1,11 @@
 linters:
-    csslint:
-      ignore: 'box-model'
-    stylelint:
-        fixer: true
-        ignore: 'box-model'
-    eslint:
-      config: './eslint.config'
-    phpcs:
-      extensions: 'php,css'
+  stylelint:
+    config: 'stylelint.config.js'
+    fixer: true
 
 files:
-  ignore:
-    - 'normalize.css'
-
+    ignore:
+        - 'normalize.css'
+        
 fixers:
     enable: true
