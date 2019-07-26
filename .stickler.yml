@@ -2,7 +2,6 @@ linters:
     csslint:
     stylelint:
         fixer: true
-        ignore: 'box-model'
     eslint:
       config: './eslint.config'
     phpcs:
