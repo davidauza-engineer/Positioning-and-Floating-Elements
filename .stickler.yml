@@ -1,6 +1,7 @@
 linters:
   stylelint:
     config: 'stylelint.config.js'
+    fixer: true
 
 files:
     ignore:
