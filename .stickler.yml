@@ -8,4 +8,4 @@ linters:
 
 files:
   ignore:
-    - './normalize.css'
+    - 'normalize.css'
