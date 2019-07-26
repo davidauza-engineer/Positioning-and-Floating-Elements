@@ -106,7 +106,7 @@ nav a:link:hover {
   display: block;
   font-style: italic;
   font-weight: 700;
-  font-family: georgia, "times new roman";
+  font-family: georgia, "times new roman", Arial, Helvetica, sans-serif;
   margin-left: 218px;
 }
 
