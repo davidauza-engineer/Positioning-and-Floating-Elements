@@ -89,16 +89,11 @@ nav a:link:hover {
   background-color: #6288a5;
 }
 
-/* Selector for the container which contains all elements bellow navbar */
+/* Selector for the main section which contains all elements below navbar */
 .container {
   width: 946px;
-  margin: 0 auto;
+  margin: 44px auto 0 auto;
   height: 1200px;
-}
-
-/* Selector for the main image */
-.main-image {
-  width: 946px;
 }
 
 /* Selector for the spans inside h1 */
@@ -106,20 +101,28 @@ nav a:link:hover {
   font-size: 38px;
   display: block;
   font-style: italic;
-  font-weight: 700;
-  font-family: georgia, "times new roman", Arial, Helvetica, sans-serif;
-  margin-left: 218px;
+  font-weight: 500;
+  font-family: georgia,'times new roman',times,serif;
+  margin-left: 173px;
+  letter-spacing: -1px;
+}
+
+/* Selector for the main image */
+.main-image {
+  width: 946px;
+  margin-top: 4px;
 }
 
 /* Selector for the container which contains the information about the pic */
 .photo-information-container {
-  width: 740px;
+  width: 704px;
 }
 
 /* Selector for the span tag which containis photo information */
 .photo-information {
-  font-size: 14px;
-  color: #333;
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
 }
 
 /* Selector for the information about the post author */
