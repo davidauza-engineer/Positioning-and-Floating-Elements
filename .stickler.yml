@@ -1,5 +1,6 @@
 linters:
     csslint:
+        ignore: 'box-model'
     stylelint:
         fixer: true
     eslint:
