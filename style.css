@@ -93,6 +93,7 @@ nav a:link:hover {
 .container {
   width: 946px;
   margin: 0 auto;
+  height: 1200px;
 }
 
 /* Selector for the main image */
@@ -159,10 +160,9 @@ nav a:link:hover {
   float: right;
 }
 
+/* Selector for the icons  */
 span i {
-  border-radius: 100px;
   width: 18px;
-  text-align: right;
   margin: 0 20px;
 }
 
@@ -170,6 +170,14 @@ span i:hover {
   cursor: pointer;
 }
 
-/* .fa-comment-alt {
+.post-text-container p {
+  font-size: 18px;
+  clear: both;
+}
 
-} */
+.post-text-container {
+  position: relative;
+  top: 60px;
+  width: 610px;
+  margin: 0 auto;
+}
