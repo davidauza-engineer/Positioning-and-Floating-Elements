@@ -128,8 +128,7 @@ nav a:link:hover {
   color: #888;
 }
 
-/* Selector for the pos/ Top container inside container  */
-.post-container {
+/* Selector for the pos/ Top container inside container  */ .post-container {
   margin-top: 40px;
 }
 
