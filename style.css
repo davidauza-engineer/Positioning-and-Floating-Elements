@@ -5,6 +5,7 @@
   border-bottom: 1px solid #e2e2e2;
   position: relative;
   z-index: 10;
+  text-align: center;
 }
 
 /* Selector for the navbar elements */
@@ -19,6 +20,24 @@
 .navbar-element:hover {
   background-color: #eee;
   cursor: pointer;
+}
+
+/* Selector for the main logo */
+.main-logo {
+  height: 28px;
+  margin: 8px auto;
+  width: 194px;
+}
+
+/* Selector for the main logo when the user hovers on it */
+.main-logo:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Selector for the left navbar container */
+.left-navbar-container {
+  float: left;
 }
 
 /* Selector for the links inside the navbar */
@@ -37,29 +56,9 @@ nav a:link:hover {
   text-decoration: underline;
   background: white;
 }
-/* Selector for the container of the main logo */
-.logo-container {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 0;
-}
-
-/* Selector for the main logo */
-.main-logo {
-  height: 28px;
-  margin: 8px auto;
-  width: 194px;
-}
-
-/* Selector for the main logo when the user hovers on it */
-.main-logo:hover {
-  background-color: white;
-  cursor: pointer;
-}
 
 /* Selector for the container for the buttons inside the navbar */
-.button-container {
+.right-button-container {
   float: right;
 }
 
