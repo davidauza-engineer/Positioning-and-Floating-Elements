@@ -127,10 +127,8 @@ nav a:link:hover {
   font-size: 12px;
   color: #888;
 }
-<<<<<<< HEAD
 
-/* Selector for the pos/ Top container inside container  */
-.post-container {
+<<<<<<< head /* Selector for the pos/ Top container inside container  */ .post-container {
   margin-top: 40px;
 }
 
@@ -169,5 +167,5 @@ span i {
 }
 
 span i:hover {
-  
+
 }
