@@ -133,9 +133,8 @@ nav a:link:hover {
   font-weight: 500;
 }
 
-/* Selector for the container of the article */ 
+/* Selector for the container of the article */
 .article-content-container {
-  
   width: 600px;
   margin: 45px auto 0 auto;
 }
@@ -203,7 +202,7 @@ span i:hover {
 .post-text-container p {
   font-size: 20px;
   clear: both;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, 'times new roman', times, serif;
   color: #333;
 }
 
