@@ -212,6 +212,7 @@ nav a:link:hover {
   overflow: show;
   border: 1px solid black;
 }
+
 /* Selector for the messages icon */
 .far {
   margin-left: 9px;
@@ -245,7 +246,7 @@ nav a:link:hover {
   text-decoration: none;
 }
 
-/* 
+/*
 .css-4brsb6 {
   display: inline-block;
   height: 15px;
