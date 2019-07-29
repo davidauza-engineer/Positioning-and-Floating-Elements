@@ -182,14 +182,39 @@ nav a:link:hover {
 }
 
 /* Selector for the icons */
-span i {
-  width: 20px;
+.icons {
+  width: 10px;
+  height: 10px;
   margin: 0 9px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* Selector for the icons when the user hovers on it */
-span i:hover {
+.icon:hover {
   cursor: pointer;
+}
+
+.test-button {
+  /* display: inline-block;
+  vertical-align: middle;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 28px;
+  height: 28px;   */
+
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+  overflow: show;
+  border: 1px solid black;
+}
+/* Selector for the messages icon */
+.far {
+  margin-left: 9px;
 }
 
 /* Selector for the container for the main text of the article */
@@ -218,4 +243,23 @@ span i:hover {
 /* Selector for the links inside the content of the article when the user hovers on it */
 .in-paragraph-links:hover {
   text-decoration: none;
+}
+
+/* 
+.css-4brsb6 {
+  display: inline-block;
+  height: 15px;
+  vertical-align: middle;
+  width: 15px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+} */
+
+
+.css-4brsb6 {
+  color: grey;
 }
