@@ -128,59 +128,93 @@ nav a:link:hover {
 /* Selector for the information about the post author */
 .pic-author {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   color: #888;
+  font-weight: 500;
 }
 
-/* Selector for the pos/ Top container inside container  */ .post-container {
-  margin-top: 40px;
+/* Selector for the container of the article */ 
+.article-content-container {
+  
+  width: 600px;
+  margin: 45px auto 0 auto;
 }
 
 /* Selector for the post author's name */
 .post-author {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: bolder;
   display: block;
 }
 
-/* Selector for the div which contains the main post */
-.post {
-  margin-top: 20px;
+/* Selector for the name of the author of the article */
+.author-name {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
 }
 
-/* selector for the time which contains the post date */
+/* Selector for the name of the author of the article when the user hovers on it */
+.author-name:hover {
+  text-decoration: none;
+}
+
+/* Selector for the container for top details of the article */
+.top-post-details-container {
+  margin-top: 10px;
+}
+
+/* Selector for the container which contains the date the article was posted */
 .post-date {
   float: left;
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: lighter;
   color: #333;
 }
 
-/* Selector for the div containing the main post's icons */
-.post-icons {
+/* Selector for the div containing the top post's icons */
+.top-icons-container {
   display: inline;
   float: right;
+  position: relative;
+  top: 18px;
 }
 
-/* Selector for the icons  */
+/* Selector for the icons */
 span i {
-  width: 18px;
-  margin: 0 20px;
+  width: 20px;
+  margin: 0 9px;
 }
 
+/* Selector for the icons when the user hovers on it */
 span i:hover {
   cursor: pointer;
 }
 
-.post-text-container p {
-  font-size: 18px;
-  clear: both;
-}
-
+/* Selector for the container for the main text of the article */
 .post-text-container {
   position: relative;
-  top: 60px;
-  width: 610px;
+  top: 28px;
+  width: 600px;
   margin: 0 auto;
+}
+
+/* Selector for the paragraphs of the main text of the article */
+.post-text-container p {
+  font-size: 20px;
+  clear: both;
+  font-family: georgia,'times new roman',times,serif;
+  color: #333;
+}
+
+/* Selector for the links inside the content of the article */
+.in-paragraph-links {
+  color: #326891;
+  text-decoration: underline;
+  text-decoration-color: #326891;
+}
+
+/* Selector for the links inside the content of the article when the user hovers on it */
+.in-paragraph-links:hover {
+  text-decoration: none;
 }
