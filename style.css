@@ -96,6 +96,7 @@ nav a:link:hover {
   width: 946px;
   margin: 100px auto 0 auto;
   height: 1200px;
+  background-color: orange;
 }
 
 /* Selector for the spans inside h1 */
@@ -121,7 +122,8 @@ nav a:link:hover {
 }
 
 /* Selector for the span tag which containis photo information */
-.photo-information {
+.photo-information,
+.title-information {
   font-size: 16px;
   color: #666;
   font-weight: 500;
@@ -277,4 +279,20 @@ span i:hover {
 .right-column-button:hover {
   cursor: pointer;
   background-color: #326891;
+}
+
+/* Middle container */
+/* ================================================================================ */
+
+.middle-container {
+  width: 970px;
+  margin-top: 80px;
+  height: 2500px;
+}
+
+.card-inforamtion-container {
+  background-color: aqua;
+  width: 230px;
+  height: 300px;
+  display: inline-block;
 }
