@@ -95,8 +95,7 @@ nav a:link:hover {
 .main-container {
   width: 946px;
   margin: 100px auto 0 auto;
-  height: 1200px;
-  background-color: orange;
+  height: 3000px;
 }
 
 /* Selector for the spans inside h1 */
@@ -195,7 +194,7 @@ span i:hover {
 }
 
 /* Selector for the container for the main text of the article */
-.post-text-container {
+.post-text-container-one {
   position: relative;
   top: 28px;
   width: 600px;
@@ -203,7 +202,7 @@ span i:hover {
 }
 
 /* Selector for the paragraphs of the main text of the article */
-.post-text-container p {
+.post-text-container-one p {
   font-size: 20px;
   clear: both;
   font-family: georgia, 'times new roman', times, serif;
@@ -220,6 +219,39 @@ span i:hover {
 /* Selector for the links inside the content of the article when the user hovers on it */
 .in-paragraph-links:hover {
   text-decoration: none;
+}
+
+.notice-container {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  height: 76px;
+  margin-top: -10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.notice-container p {
+  color: #333;
+  font-weight: bold;
+  font-family: sans-serif, 'times new roman', times, serif;
+  font-size: 14px;
+  line-height: 4px;
+  position: relative;
+  top: 12px;
+  display: block;
+}
+
+.notice-container .notice-link {
+  color: rgb(50, 104, 145);
+  display: block;
+}
+
+.notice-container .notice-link:hover {
+  cursor: pointer;
+}
+
+.post-text-container-two {
+  margin-top: 28px;
 }
 
 /*=============================================================================================================*/
@@ -290,9 +322,29 @@ span i:hover {
   height: 2500px;
 }
 
-.card-inforamtion-container {
+.card-information-container {
   background-color: aqua;
   width: 230px;
   height: 300px;
+  display: inline-block;
+  position: relative;
+}
+
+.card {
+  width: 230px;
+  height: 140px;
+  display: block;
+}
+
+.bolded-span {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  line-height: 1;
+}
+
+.card-paragraph {
+  font-family: georgia,"times new roman",times,serif;
+  font-size: 12px;
   display: inline-block;
 }
