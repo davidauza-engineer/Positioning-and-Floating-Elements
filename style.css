@@ -219,6 +219,7 @@ span i:hover {
 /* Selector for the links inside the content of the article when the user hovers on it */
 .in-paragraph-links:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* Rules for the container of the small notice inside the text of the article */
@@ -307,11 +308,7 @@ span i:hover {
   height: 600px;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
   margin-top: 58px;
-  grid-gap: 14px;
-}
-
-/* Rules for the items inside the grid of the graphic inside the main text */
-.graphic-grid-item {
+  grid-gap: 0 14px;
 }
 
 /* Rules for the images inside the graphic inside the main text */
@@ -323,8 +320,9 @@ span i:hover {
   text*/
 .card-paragraph {
   font-family: georgia,"times new roman",times,serif;
-  font-size: 12px;
+  font-size: 13px;
   display: inline-block;
+  font-weight: lighter;
 }
 
 /* Rules for the bolded text inside each card inside the graphic inside the     
@@ -334,9 +332,11 @@ span i:hover {
   font-weight: bold;
   color: #333;
   line-height: 1;
+  font-size: 12px;
+  font-family: georgia,"times new roman",times,serif;;
 }
 
-/* Selector for the div we are using to have border efect above post author/ for the images */
+/* Selector for the div we are using to have border efect above post author/ for the images inside the main text */
 .upper-border {
   height: 40px;
   width: 60px;
@@ -345,8 +345,69 @@ span i:hover {
   top: 10px;
 }
 
+/* Text containing the authors of the graphic inside the main text*/
 .post-authors {
+  font-size: 14px;
+  position: relative;
+  bottom: 16px;
+  color: #333;
+}
+
+/* Rules for the container of the second part of the text */
+.main-text-second-part {
+  position: relative;
+  top: 16px;
+}
+
+/* Rules for the iframe containing the YouTube video */
+iframe {
+  margin-top: 28px;
+}
+
+/* Selector for the credis below the YouTube video */
+.video-credits {
+  padding-bottom: 10px;
+}
+
+/* Selecotr for the image inside the second part of the main text */
+.in-text-image {
+  width: 600px;
+  height: 400px;
+  margin-top: 42px;
+}
+
+/* Selector for the text below the image inside the second part of the main text */
+.second-pic-info {
+  font-size: 17x;
+  position: relative;
+  top: 4px;
+}
+
+/* Selector for the text of the authors of the image inside the second part of 
+  the text */
+.second-pic-author {
+  font-size: 15px;
+  position: relative;
+  top: 8px;
+}
+
+/* Selector for the small text below the main content */
+.small-notice-end {
   font-size: 13px;
+  margin-top: 24px;
+}
+
+/* Selector for the button at the bottom of the main text */
+.read-comments-button {
+  width: 332px;
+  height: 40px;
+  font-family: helvetica, arial, sans-serif;
+  margin-top: 28px;
+}
+
+/* Seletor for the icons located at the bottom of the main text */
+.icons-bottom {
+  margin-top: 22px;
 }
 
 /*=============================================================================================================*/
