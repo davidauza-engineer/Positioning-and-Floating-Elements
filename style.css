@@ -221,15 +221,19 @@ span i:hover {
   text-decoration: none;
 }
 
+/* Rules for the container of the small notice inside the text of the article */
 .notice-container {
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
   height: 76px;
   margin-top: -10px;
   text-align: center;
   vertical-align: middle;
+  position: relative;
 }
 
+/* Rules for the paragraphs of the small notice inside the text of the article 
+  */
 .notice-container p {
   color: #333;
   font-weight: bold;
@@ -241,18 +245,122 @@ span i:hover {
   display: block;
 }
 
+/* Rules for the links of the small notice inside the text of the article 
+  */
 .notice-container .notice-link {
   color: rgb(50, 104, 145);
   display: block;
 }
 
+/* Rules for the links of the small notice inside the text of the article 
+  when the user hovers on it */
 .notice-container .notice-link:hover {
   cursor: pointer;
 }
 
+/* Rules for the container which draws the margins for the small notice inside 
+  the main paragraphs */
+.margin-for-notice {
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+  width: 74px;
+  height: 76px;
+  position: absolute;
+  top: -1px;
+  left: 270px;
+}
+
+/* Rules for the containe of the second part of the main text */
 .post-text-container-two {
   margin-top: 28px;
 }
+
+/* Rules for the h2 inside the second paragraph*/
+.second-paragraph-h2 {
+  font-size: 20px;
+  line-height: 1.15px;
+  margin: 50px 0 30px 0;
+}
+
+/* Rules for the container for the text above the graphic */
+.middle-container {
+  width: 970px;
+  margin-top: 60px;
+  position: relative;
+}
+
+/* Rules for the h2 above the graphic in the middle of the main text */
+.graphic-h2 {
+  font-size: 20px;
+}
+
+/* Rules for the text above the graphic */
+.graphic-text {
+  position: absolute;
+  top: 14px;
+}
+
+/* Rules for the container of the graphic inside the main text*/
+.graphic-container {
+  display: grid;
+  background: aquamarine;
+  width: 100%;
+  height: 600px;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+  margin-top: 58px;
+  grid-gap: 14px;
+}
+
+/* Rules for the items inside the grid of the graphic inside the main text */
+.graphic-grid-item {
+  background: rgb(255, 180, 42);
+  border: 1px solid white;
+}
+
+/* Rules for the images inside the graphic inside the main text */
+.card-image {
+  width: 230px;
+}
+
+/* Rules for the paragraphs inside each card inside the graphic inside the main 
+  text*/
+.card-paragraph {
+  font-family: georgia,"times new roman",times,serif;
+  font-size: 12px;
+  display: inline-block;
+}
+
+/* Rules for the bolded text inside each card inside the graphic inside the     
+  main text*/
+.bolded-span {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  line-height: 1;
+}
+
+
+
+
+
+
+.card-information-container {
+  background-color: aqua;
+  width: 230px;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+}
+
+.card {
+  width: 230px;
+  height: 140px;
+  display: block;
+}
+
+
+
+
 
 /*=============================================================================================================*/
 
@@ -268,7 +376,7 @@ span i:hover {
 .first-right-column-container {
   position: relative;
   right: 80px;
-  bottom: 200px;
+  bottom: 1985px;
 }
 
 /* Selector for h1 headers at the right column */
@@ -311,40 +419,4 @@ span i:hover {
 .right-column-button:hover {
   cursor: pointer;
   background-color: #326891;
-}
-
-/* Middle container */
-/* ================================================================================ */
-
-.middle-container {
-  width: 970px;
-  margin-top: 80px;
-  height: 2500px;
-}
-
-.card-information-container {
-  background-color: aqua;
-  width: 230px;
-  height: 300px;
-  display: inline-block;
-  position: relative;
-}
-
-.card {
-  width: 230px;
-  height: 140px;
-  display: block;
-}
-
-.bolded-span {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #333;
-  line-height: 1;
-}
-
-.card-paragraph {
-  font-family: georgia,"times new roman",times,serif;
-  font-size: 12px;
-  display: inline-block;
 }
