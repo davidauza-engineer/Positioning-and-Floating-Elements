@@ -418,6 +418,7 @@ iframe {
   height: 100%;
   float: right;
   display: inline;
+  
 }
 
 /* Selector for the container of the first element at the right column */
@@ -509,4 +510,42 @@ footer:hover {
 .subscribe-arrow {
   vertical-align: middle;
   margin-left: 30px;
+}
+
+/* Selector for the middle container  */
+.middle-container {
+  margin: 80px auto;
+  padding: 8px 20px;
+  width: 1250px;
+  border: 4px solid yellow;
+}
+
+/* Selector for the left column/ Middle container  */
+.midle-container-left {
+  display: inline;
+  width: 860px;
+  height: 1200px;;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  grid-gap: 0 18px;
+  background-color: #326891;
+}
+
+/* Selector for the grid elements left column / Mddle Container */
+.middle-container-left-item {
+  border: 4px solid green;
+  width: 208px;
+  height: 320px;
+}
+
+/* Selector for the right container ? Middle container  */
+.middle-container-rigth {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: inline;
+  width: 340px;
+  height: 1198px;
+  background-color: green;
+  float: right;
 }
