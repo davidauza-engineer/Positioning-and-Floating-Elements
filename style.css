@@ -95,7 +95,7 @@ nav a:link:hover {
 .main-container {
   width: 946px;
   margin: 100px auto 0 auto;
-  height: 3000px;
+  height: 100%;
 }
 
 /* Selector for the spans inside h1 */
@@ -336,8 +336,18 @@ span i:hover {
   line-height: 1;
 }
 
+/* Selector for the div we are using to have border efect above post author/ for the images */
+.upper-border {
+  height: 40px;
+  width: 60px;
+  border-top: 1px solid black;
+  position: relative;
+  top: 10px;
+}
 
-
+.post-authors {
+  font-size: 13px;
+}
 
 /*=============================================================================================================*/
 
@@ -396,4 +406,46 @@ span i:hover {
 .right-column-button:hover {
   cursor: pointer;
   background-color: #326891;
+}
+
+/* Selector for the main footer  */
+footer {
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 56px;
+}
+
+footer:hover {
+  cursor: pointer;
+}
+
+/* Selector for the div which contain */
+.main-footer {
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.subscribe-options {
+  float: right;
+  margin-right: 90px;
+  font-size: 11px;
+}
+
+.text-subscribe {
+  font-size: 14px;
+}
+
+.subscribe {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subscribe-arrow {
+  vertical-align: middle;
+  margin-left: 30px;
 }
