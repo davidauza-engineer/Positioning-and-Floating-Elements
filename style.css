@@ -418,14 +418,15 @@ iframe {
   height: 100%;
   float: right;
   display: inline;
-  
 }
 
 /* Selector for the container of the first element at the right column */
 .first-right-column-container {
-  position: relative;
+  position: absolute;
+  top: 1110px;
   right: 80px;
-  bottom: 1985px;
+  z-index: 20;
+  width: 180px;
 }
 
 /* Selector for h1 headers at the right column */
@@ -468,6 +469,140 @@ iframe {
 .right-column-button:hover {
   cursor: pointer;
   background-color: #326891;
+}
+
+/* Selector for the header at the second element at the right column */
+.second-right-column-container-header {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+}
+
+/* Selector for the container of the second element in the right column */
+.second-right-column-container {
+  position: absolute;
+  top: 1648px;
+  right: 55px;
+}
+
+/* Selector for the grid of the second element in the right column */
+.grid-right-column {
+  display: grid;
+  grid-template: repeat(4, 77px) / 77px 1fr 1fr;
+  width: 212px;
+  height: 380px;
+  grid-gap: 20px 10px;
+  position: relative;
+  z-index: 9;
+}
+
+/* Rules for the images in the second element of the right column */
+.right-column-second-element-image {
+  width: 77px;
+  height: 77px;
+}
+
+/* Rules for the texts in the second element of the right column */
+.right-column-second-element-text {
+  font-family: georgia, "times new roman";
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 17px;
+  width: 100%;
+  color: rgb(51, 51, 51);
+  padding-bottom: 16px;
+  position: relative;
+  top: 12px;
+}
+
+/* Rules for the texts in the second element of the right column when the user  
+  hovers on it */
+.right-column-second-element-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Selector for the first image of the editor's pick element */
+.editor-pick-image_one {
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+/* Selector for the first text of the editor's pick element */
+.editor-pick-text-one {
+  grid-area: 1 / 2 / span 1 / span 2;
+}
+
+/* Selector for the second image of the editor's pick element */
+.editor-pick-image_two {
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+/* Selector for the second text of the editor's pick element */
+.editor-pick-text-two {
+  grid-area: 2 / 2 / span 1 / span 2;
+}
+
+/* Selector for the third image of the editor's pick element */
+.editor-pick-image_three {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+
+/* Selector for the third text of the editor's pick element */
+.editor-pick-text-three {
+  grid-area: 3 / 2 / span 1 / span 2;
+}
+
+/* Selector for the fourth image of the editor's pick element */
+.editor-pick-image_four {
+  grid-area: 4 / 1 / span 1 / span 1;
+}
+
+/* Selector for the fourth image of the editor's pick element when the user 
+  hovers on it */
+.editor-pick-image_four:hover {
+  cursor: pointer;
+}
+
+/* Selector for the fourth text of the editor's pick element */
+.editor-pick-text-four {
+  grid-area: 4 / 2 / span 1 / span 2;
+}
+
+/* Selector for the fourth text of the editor's pick element when the user 
+  hovers on it */
+.editor-pick-text-four:hover {
+  cursor: pointer;
+}
+
+/* Selector for the header of the ads at the editor's pick element */
+.ad-element-header {
+  color: #000000;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 13px;
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
+/* Selector for the text of the ads at the editor's pick element */
+.ad-element-text {
+  color: #121212;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+/* Selector for the background of the ad at the second element in the right 
+  column */
+.ad-background {
+  background: #F6F6F6;
+  width: 230px;
+  height: 100px;
+  position: absolute;
+  top: 331px;
+  right: -10px;
 }
 
 /* Selector for the main footer  */
@@ -513,10 +648,10 @@ footer:hover {
 }
 
 /* Selector for the middle container  */
-.middle-container {
+.bottom-container {
   margin: 80px auto;
   padding: 8px 20px;
-  /* width: 1220px; */
+  width: 1220px;
   width: 1230px;
   border: 4px solid yellow;
 }
@@ -549,7 +684,7 @@ footer:hover {
   display: inline;
   width: 340px;
   height: 700px;
-  background-color: green;
+  /* background-color: green; */
   float: right;
 }
 
