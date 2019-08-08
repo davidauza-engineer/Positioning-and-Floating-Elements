@@ -410,7 +410,7 @@ iframe {
   margin-top: 22px;
 }
 
-/* Selector for the middle container  */
+/* Selector for the card bottom container */
 .card-bottom-container {
   display: grid;
   width: 1200px;
@@ -420,12 +420,63 @@ iframe {
   grid-gap: 30px;
 }
 
-/* Selector for the left colum in the middle container */
-.card-element-left-column {
+/* Selector for the span More in Space & Cosmos at the bottom card container */
+.card-header {
+  display: inline;
 }
 
-/* Selector for the right colum inside middle container */
-.card-element-rigth-column {
+/* Selector for the span More in Space & Cosmos at the bottom card container 
+  when the user hovers on it */
+.card-header:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Selector for the More in Space & Cosmos grid at the bottom card container */
+.space-and-cosmos-grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  width: 852px;
+  height: 670px;
+  grid-gap: 46px / 18px;
+}
+
+/* Selector for the images inside each card at the bottom card container */
+.bottom-card-image {
+  width: 275px;
+  height: 182px;
+}
+
+/* Selector for the small text below each image of a card in the bottom card container */
+.bottom-card-pic-author {
+  padding-bottom: 4px;
+  font-size: 11px;
+  margin: 3px 0px 0px;
+  text-align: right;
+  color: rgb(153, 153, 153);
+  line-height: 1.23em;
+  display: block;
+  position: relative;
+  right: 12px;
+}
+
+/* Selector for the title of each card at the bottom card container */
+.bottom-card-title {
+  line-height: 22px;
+  color: rgb(18, 18, 18);
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* Selector for the date in a card at the bottom card container */
+.bottom-card-date {
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+  position: relative;
+  top: 4px;
+  font-size: 12px;
+  font-family: sans-serif;
 }
 
 /* Selectpr for the title of right container */
@@ -433,7 +484,7 @@ iframe {
     font-family: helvetica, arial, sans-serif;
     font-weight: 700;
     border-top: 1px solid rgb(0, 0, 0);
-    padding: 15px 0;
+    padding: 20px 0 0 0;
 }
 
 /* Selector for  the most popular element grid */
@@ -441,12 +492,11 @@ iframe {
   height: 820px;
   display: grid;
   grid-template-rows: repeat(10, 1fr);
-
 }
 
 /* Selector for the elements inside the right colum */
 .most-popular-element {
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(226, 226, 226);
   padding-top: 20px;
   color: rgb(18, 18, 18);
   font-family: georgia, "times new roman", times, serif;
