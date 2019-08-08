@@ -447,6 +447,11 @@ iframe {
   height: 182px;
 }
 
+/* Selector for the images inside each card at the bottom card container when the user hovers on it */
+.bottom-card-image:hover {
+  cursor: pointer;
+}
+
 /* Selector for the small text below each image of a card in the bottom card container */
 .bottom-card-pic-author {
   padding-bottom: 4px;
@@ -460,6 +465,11 @@ iframe {
   right: 12px;
 }
 
+/* Selector for the small text below each image of a card in the bottom card container when the user hovers on it*/
+.bottom-card-pic-author:hover {
+  cursor: pointer;
+}
+
 /* Selector for the title of each card at the bottom card container */
 .bottom-card-title {
   line-height: 22px;
@@ -467,6 +477,13 @@ iframe {
   display: block;
   font-weight: 500;
   font-size: 18px;
+}
+
+/* Selector for the title of each card at the bottom card container when the 
+  user hovers on it */
+.bottom-card-title:hover {
+  cursor: pointer;
+  color: rgba(0 , 0, 0, 0.6);
 }
 
 /* Selector for the date in a card at the bottom card container */
@@ -480,7 +497,7 @@ iframe {
 }
 
 /* Selectpr for the title of right container */
-.right-column-card-element-title {
+.column-card-element-title {
     font-family: helvetica, arial, sans-serif;
     font-weight: 700;
     border-top: 1px solid rgb(0, 0, 0);
@@ -502,10 +519,35 @@ iframe {
   font-family: georgia, "times new roman", times, serif;
   font-weight: bold;
 }
+
+/* Selector for the elements inside the right colum when the user hovers on 
+  it */
 .most-popular-element:hover {
   color: rgba(0 , 0, 0, 0.5);
   cursor: pointer;
 }
+
+/* Selector for the container of the last row of the bottom card container */
+.editors-pick-bottom-container {
+  position: relative;
+  bottom: 218px;
+}
+
+/* Selector for the title of the bottom Editor's Pick section when the user   
+  hovers on it */
+.editor-pick-bottom-title:hover {
+  text-decoration: none;
+}
+
+/* Selector for the grid at the bottom of the bottom card container */
+.editors-pick-bottom-grid {
+  display: grid;
+  grid-template: 100% / repeat(3, 1fr);
+  width: 852px;
+  height: 335px;
+  grid-gap: 46px / 18px;
+}
+
 /*=============================================================================================================*/
 
 /* Selector for the right column container */
