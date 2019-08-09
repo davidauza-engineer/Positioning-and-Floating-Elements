@@ -1,5 +1,5 @@
 # Positioning-and-Floating-Elements 
- This is our solution to Microverse's third project. It is a Ny Times page clone. It is created using HTML5 and CSS3. The goal of the project is to test our skills with new concepts like CSS grid. Here we make use of new 
+ This is our solution to Microverse's third project. It is a Ny Times page clone. It is created using HTML5 and CSS3. The goal of the project is to test what we have learned using new skills like CSS grid. 
  
  Project contributors:
  
