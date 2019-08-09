@@ -233,8 +233,7 @@ span i:hover {
   position: relative;
 }
 
-/* Rules for the paragraphs of the small notice inside the text of the article 
-  */
+/* Rules for the paragraphs of the small notice inside the text of the article*/
 .notice-container p {
   color: #333;
   font-weight: bold;
@@ -246,8 +245,7 @@ span i:hover {
   display: block;
 }
 
-/* Rules for the links of the small notice inside the text of the article 
-  */
+/* Rules for the links of the small notice inside the text of the article*/
 .notice-container .notice-link {
   color: rgb(50, 104, 145);
   display: block;
@@ -377,15 +375,14 @@ iframe {
   margin-top: 42px;
 }
 
-/* Selector for the text below the image inside the second part of the main text */
+/* Selector for the text below the image inside the second part of the main text*/
 .second-pic-info {
-  font-size: 17x;
   position: relative;
   top: 4px;
 }
 
 /* Selector for the text of the authors of the image inside the second part of 
-  the text */
+the text */
 .second-pic-author {
   font-size: 15px;
   position: relative;
@@ -534,8 +531,7 @@ iframe {
   bottom: 218px;
 }
 
-/* Selector for the title of the bottom Editor's Pick section when the user   
-  hovers on it */
+/* Selector for the title of the bottom Editor's Pick section when the user hovers on it*/
 .editor-pick-bottom-title:hover {
   text-decoration: none;
 }
@@ -645,7 +641,7 @@ iframe {
 
 /* Rules for the texts in the second element of the right column */
 .right-column-second-element-text {
-  font-family: georgia, "times new roman";
+  font-family: georgia, "times new roman", sans-serif;
   font-weight: lighter;
   font-size: 14px;
   line-height: 17px;
@@ -698,8 +694,7 @@ iframe {
   grid-area: 4 / 1 / span 1 / span 1;
 }
 
-/* Selector for the fourth image of the editor's pick element when the user 
-  hovers on it */
+/* Selector for the fourth image of the editor's pick element when the user hovers on it */
 .editor-pick-image_four:hover {
   cursor: pointer;
 }
@@ -709,8 +704,7 @@ iframe {
   grid-area: 4 / 2 / span 1 / span 2;
 }
 
-/* Selector for the fourth text of the editor's pick element when the user 
-  hovers on it */
+/* Selector for the fourth text of the editor's pick element when the user hovers on it */
 .editor-pick-text-four:hover {
   cursor: pointer;
 }
