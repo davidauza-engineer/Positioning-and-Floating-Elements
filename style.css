@@ -362,6 +362,7 @@ span i:hover {
 /* Rules for the iframe containing the YouTube video */
 iframe {
   margin-top: 28px;
+  border: none;
 }
 
 /* Selector for the credis below the YouTube video */
@@ -858,6 +859,7 @@ div.menu-item-category h5 {
   margin-left: 8px;
   position: relative;
   bottom: 2px;
+  width: 250px;
 }
 
 /* Rules for the p elements at the last column at the grid of the bottom menu */
