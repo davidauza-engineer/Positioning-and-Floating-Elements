@@ -882,7 +882,6 @@ div.menu-item-category h5 {
 /* Rules for the footer tag */
 footer {
   margin-bottom: 86px;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
