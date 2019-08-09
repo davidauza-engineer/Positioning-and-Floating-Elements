@@ -882,6 +882,11 @@ div.menu-item-category h5 {
 /* Rules for the footer tag */
 footer {
   margin-bottom: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
   text-align: center;
 }
 
@@ -907,7 +912,7 @@ footer {
 /* Selector for the nav element at the bottom of the page */
 .footer-nav {
   background-color: white;
-  border: 1px solid black;
+  border-top: 1px solid black;
   text-align: center;
   z-index: 30;
   position: fixed;
