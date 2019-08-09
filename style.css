@@ -233,7 +233,7 @@ span i:hover {
   position: relative;
 }
 
-/* Rules for the paragraphs of the small notice inside the text of the article*/
+/* Rules for the paragraphs of the small notice inside the text of the article */
 .notice-container p {
   color: #333;
   font-weight: bold;
@@ -245,7 +245,7 @@ span i:hover {
   display: block;
 }
 
-/* Rules for the links of the small notice inside the text of the article*/
+/* Rules for the links of the small notice inside the text of the article */
 .notice-container .notice-link {
   color: rgb(50, 104, 145);
   display: block;
@@ -375,7 +375,7 @@ iframe {
   margin-top: 42px;
 }
 
-/* Selector for the text below the image inside the second part of the main text*/
+/* Selector for the text below the image inside the second part of the main text */
 .second-pic-info {
   position: relative;
   top: 4px;
@@ -531,7 +531,7 @@ iframe {
   bottom: 218px;
 }
 
-/* Selector for the title of the bottom Editor's Pick section when the user hovers on it*/
+/* Selector for the title of the bottom Editor's Pick section when the user hovers on it */
 .editor-pick-bottom-title:hover {
   text-decoration: none;
 }
