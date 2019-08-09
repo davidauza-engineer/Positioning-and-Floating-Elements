@@ -251,13 +251,13 @@ span i:hover {
   display: block;
 }
 
-/* Rules for the links of the small notice inside the text of the article 
+/* Rules for the links of the small notice inside the text of the article
   when the user hovers on it */
 .notice-container .notice-link:hover {
   cursor: pointer;
 }
 
-/* Rules for the container which draws the margins for the small notice inside 
+/* Rules for the container which draws the margins for the small notice inside
   the main paragraphs */
 .margin-for-notice {
   border-top: 1px solid #777;
@@ -274,7 +274,7 @@ span i:hover {
   margin-top: 28px;
 }
 
-/* Rules for the h2 inside the second paragraph*/
+/* Rules for the h2 inside the second paragraph */
 .second-paragraph-h2 {
   font-size: 20px;
   line-height: 1.15px;
@@ -299,7 +299,7 @@ span i:hover {
   top: 14px;
 }
 
-/* Rules for the container of the graphic inside the main text*/
+/* Rules for the container of the graphic inside the main text */
 .graphic-container {
   display: grid;
   width: 100%;
@@ -314,24 +314,24 @@ span i:hover {
   width: 230px;
 }
 
-/* Rules for the paragraphs inside each card inside the graphic inside the main 
-  text*/
+/* Rules for the paragraphs inside each card inside the graphic inside the main
+  text */
 .card-paragraph {
-  font-family: georgia,"times new roman",times,serif;
+  font-family: georgia, "times new roman", times, serif;
   font-size: 13px;
   display: inline-block;
   font-weight: lighter;
 }
 
-/* Rules for the bolded text inside each card inside the graphic inside the     
-  main text*/
+/* Rules for the bolded text inside each card inside the graphic inside the
+  main text */
 .bolded-span {
   text-transform: uppercase;
   font-weight: bold;
   color: #333;
   line-height: 1;
   font-size: 12px;
-  font-family: georgia,"times new roman",times,serif;;
+  font-family: georgia, "times new roman", times, serif;
 }
 
 /* Selector for the div we are using to have border efect above post author/ for the images inside the main text */
@@ -343,7 +343,7 @@ span i:hover {
   top: 10px;
 }
 
-/* Text containing the authors of the graphic inside the main text*/
+/* Text containing the authors of the graphic inside the main text */
 .post-authors {
   font-size: 14px;
   position: relative;
@@ -381,8 +381,8 @@ iframe {
   top: 4px;
 }
 
-/* Selector for the text of the authors of the image inside the second part of 
-the text */
+/* Selector for the text of the authors of the image inside the second part of
+  the text */
 .second-pic-author {
   font-size: 15px;
   position: relative;
@@ -423,7 +423,7 @@ the text */
   display: inline;
 }
 
-/* Selector for the span More in Space & Cosmos at the bottom card container 
+/* Selector for the span More in Space & Cosmos at the bottom card container
   when the user hovers on it */
 .card-header:hover {
   cursor: pointer;
@@ -454,7 +454,7 @@ the text */
 .bottom-card-pic-author {
   padding-bottom: 4px;
   font-size: 11px;
-  margin: 3px 0px 0px;
+  margin: 3px 0 0;
   text-align: right;
   color: rgb(153, 153, 153);
   line-height: 1.23em;
@@ -463,7 +463,7 @@ the text */
   right: 12px;
 }
 
-/* Selector for the small text below each image of a card in the bottom card container when the user hovers on it*/
+/* Selector for the small text below each image of a card in the bottom card container when the user hovers on it */
 .bottom-card-pic-author:hover {
   cursor: pointer;
 }
@@ -477,11 +477,11 @@ the text */
   font-size: 18px;
 }
 
-/* Selector for the title of each card at the bottom card container when the 
+/* Selector for the title of each card at the bottom card container when the
   user hovers on it */
 .bottom-card-title:hover {
   cursor: pointer;
-  color: rgba(0 , 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /* Selector for the date in a card at the bottom card container */
@@ -496,10 +496,10 @@ the text */
 
 /* Selectpr for the title of right container */
 .column-card-element-title {
-    font-family: helvetica, arial, sans-serif;
-    font-weight: 700;
-    border-top: 1px solid rgb(0, 0, 0);
-    padding: 20px 0 0 0;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  border-top: 1px solid rgb(0, 0, 0);
+  padding: 20px 0 0 0;
 }
 
 /* Selector for  the most popular element grid */
@@ -518,10 +518,10 @@ the text */
   font-weight: bold;
 }
 
-/* Selector for the elements inside the right colum when the user hovers on 
+/* Selector for the elements inside the right colum when the user hovers on
   it */
 .most-popular-element:hover {
-  color: rgba(0 , 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
@@ -652,7 +652,7 @@ the text */
   top: 12px;
 }
 
-/* Rules for the texts in the second element of the right column when the user  
+/* Rules for the texts in the second element of the right column when the user
   hovers on it */
 .right-column-second-element-text:hover {
   text-decoration: underline;
@@ -711,11 +711,11 @@ the text */
 
 /* Selector for the header of the ads at the editor's pick element */
 .ad-element-header {
-  color: #000000;
+  color: #000;
   font-size: 10px;
   font-weight: bold;
   line-height: 13px;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Selector for the text of the ads at the editor's pick element */
@@ -725,10 +725,10 @@ the text */
   line-height: 15px;
 }
 
-/* Selector for the background of the ad at the second element in the right 
+/* Selector for the background of the ad at the second element in the right
   column */
 .ad-background {
-  background: #F6F6F6;
+  background: #f6f6f6;
   width: 230px;
   height: 100px;
   position: absolute;
@@ -745,22 +745,22 @@ the text */
   margin: 62px auto 0 auto;
 }
 
-/* Selector for the container to add a thin border at the top of the bottom   
+/* Selector for the container to add a thin border at the top of the bottom
   menu container */
 .thin-border-container {
   margin: 1px 0 0 0;
   border-top: 1px solid rgb(226, 226, 226);
 }
 
-/* Selector for the container which contains the New York Times logo at the 
+/* Selector for the container which contains the New York Times logo at the
   bottom menu container */
 .menu-item-logo {
   padding-top: 10px;
   width: 185px;
-  display:inline-block;
+  display: inline-block;
 }
 
-/* Selector for the Go To Home Page link to the right of the bottom menu 
+/* Selector for the Go To Home Page link to the right of the bottom menu
   container */
 .go-to-homepage:link {
   margin-top: 20px;
@@ -779,13 +779,13 @@ the text */
   grid-template-columns: repeat(6, 1fr);
 }
 
-/* Selector for the containers of each column at the grid at the menu bottom 
+/* Selector for the containers of each column at the grid at the menu bottom
   container */
 .menu-item-category {
   line-height: 10px;
 }
 
-/* Selector for the container of the no header elements inside each column at 
+/* Selector for the container of the no header elements inside each column at
   the grid at the bottom menu container */
 .no-header-menu-item-container {
   position: relative;
@@ -797,18 +797,18 @@ the text */
 
 /* Selector for the headers at the columns at the grid at the bottom menu */
 div.menu-item-category h5 {
-    color: rgb(51, 51, 51);
-    font-size: 13px;
-    font-weight: 900;
-    font-family: sans-serif;
-    height: 25px;
-    line-height: 15px;
-    text-transform: uppercase;
-    width: 150px;
-    margin: 0px;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 900;
+  font-family: sans-serif;
+  height: 25px;
+  line-height: 15px;
+  text-transform: uppercase;
+  width: 150px;
+  margin: 0;
 }
 
-/* Selector for the p elements at the columns at the grid at the bottom menu 
+/* Selector for the p elements at the columns at the grid at the bottom menu
   when the user hoves on it */
 .menu-item-category p:hover {
   text-decoration: underline;
@@ -827,20 +827,20 @@ div.menu-item-category h5 {
   border-top: 1px solid rgb(226, 226, 226);
 }
 
-/* Rules for the container of the icon and text at the last column at the grid 
+/* Rules for the container of the icon and text at the last column at the grid
   of the bottom menu */
 .menu-last-columm-icon-text-container {
   margin-top: 20px;
 }
 
-/* Rules for the container of the icon and text at the last column at the grid 
+/* Rules for the container of the icon and text at the last column at the grid
   of the bottom menu when the user hovers on it */
-  .menu-last-columm-icon-text-container:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
+.menu-last-columm-icon-text-container:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 
-/* Rules for the first container of the icon and text at the last column at the 
+/* Rules for the first container of the icon and text at the last column at the
   grid of the bottom menu */
 .menu-last-column-icon-text-container-first {
   margin-top: 12px;
@@ -867,13 +867,13 @@ div.menu-item-category h5 {
   margin-top: -10px;
 }
 
-/* Rules for the first p element at the last column at the grid of the bottom   
+/* Rules for the first p element at the last column at the grid of the bottom
   menu */
 .bottom-menu-last-column-p-first-element {
   margin-top: 24px;
 }
 
-/* Rules for the first p element at the last column, at the last row at the 
+/* Rules for the first p element at the last column, at the last row at the
   grid of the bottom menu */
 .mobile-app-p {
   margin-top: 14px;
@@ -891,7 +891,7 @@ footer {
   color: rgb(153, 153, 153);
   font-family: helvetica, arial, sans-serif;
   white-space: nowrap;
-  padding: 10px 0px;
+  padding: 10px 0;
   text-decoration: none;
   font-size: 11px;
   position: relative;
@@ -916,7 +916,7 @@ footer {
   height: 54px;
 }
 
-/* Selector for the nav element at the bottom of the page when the user hovers 
+/* Selector for the nav element at the bottom of the page when the user hovers
   on it */
 .footer-nav:hover {
   cursor: pointer;
@@ -937,7 +937,7 @@ footer {
   left: 120px;
 }
 
-/* Rules for the container at the bottom nav which contains a text and an 
+/* Rules for the container at the bottom nav which contains a text and an
   icon */
 .subscribe-options {
   float: right;
