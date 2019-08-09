@@ -743,50 +743,64 @@ iframe {
 
 /* Selector for the bottom menu container */
 .menu-items-container {
-  padding: 0 44px 10px 44px;
+  padding: 0 0 10px -12px;
   border-bottom: 1px solid rgb(226, 226, 226);
   border-top: 2px solid rgb(226, 226, 226);
-  width: 1150px;
+  width: 1200px;
   margin: 62px auto 0 auto;
 }
 
 /* Selector for the container to add a thin border at the top of the bottom   
   menu container */
 .thin-border-container {
+  margin: 1px 0 0 0;
   border-top: 1px solid rgb(226, 226, 226);
-  margin-top: 1px;
-  width: 1150px;
 }
 
+/* Selector for the container which contains the New York Times logo at the 
+  bottom menu container */
 .menu-item-logo {
-  padding-top: 20px;
+  padding-top: 10px;
   width: 185px;
   display:inline-block;
 }
 
+/* Selector for the Go To Home Page link to the right of the bottom menu 
+  container */
 .go-to-homepage:link {
   margin-top: 20px;
   text-decoration: none;
   color: rgb(98, 136, 165);
   font-weight: 400px;
-  font-size: 13px;
+  font-size: 11px;
   float: right;
+  font-family: sans-serif;
 }
 
+/* Selector for the grid at the menu bottom container */
 .grid-container-menu-items {
-  margin-top: 20px;
+  margin-top: 16px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-
 }
 
-.menu-items {
-  bottom: 0;
-  margin: 54px auto 120px auto;
-  width: 1150px;
-  height: 460px; 
+/* Selector for the containers of each column at the grid at the menu bottom 
+  container */
+.menu-item-category {
+  line-height: 10px;
 }
 
+/* Selector for the container of the no header elements inside each column at 
+  the grid at the bottom menu container */
+.no-header-menu-item-container {
+  position: relative;
+  bottom: 10px;
+  line-height: 12px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* Selector for the headers at the columns at the grid at the bottom menu */
 div.menu-item-category h5 {
     color: rgb(51, 51, 51);
     font-size: 13px;
@@ -799,50 +813,102 @@ div.menu-item-category h5 {
     margin: 0px;
 }
 
-.menu-item-category {
-  line-height: 10px;
-}
-
+/* Selector for the p elements at the columns at the grid at the bottom menu 
+  when the user hoves on it */
 .menu-item-category p:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
+/* Rules for the las column at the grid at the bottom menu */
+.menu-last-column {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+/* Rules for the second row at the last column at the grid at the bottom menu */
+.menu-last-columm-second-row {
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+/* Rules for the container of the icon and text at the last column at the grid 
+  of the bottom menu */
+.menu-last-columm-icon-text-container {
+  margin-top: 20px;
+}
+
+/* Rules for the container of the icon and text at the last column at the grid 
+  of the bottom menu when the user hovers on it */
+  .menu-last-columm-icon-text-container:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+/* Rules for the first container of the icon and text at the last column at the 
+  grid of the bottom menu */
+.menu-last-column-icon-text-container-first {
+  margin-top: 12px;
+}
+
+/* Selector for the spans at the last column at the grid at the bottom menu */
+.menu-last-column-link {
+  font-size: 15px;
+  font-weight: bolder;
+  margin-left: 8px;
+  position: relative;
+  bottom: 2px;
+}
+
+/* Rules for the p elements at the last column at the grid of the bottom menu */
+.bottom-menu-last-column-p {
+  display: inline-block;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 11px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: -10px;
+}
+
+/* Rules for the first p element at the last column at the grid of the bottom   
+  menu */
+.bottom-menu-last-column-p-first-element {
+  margin-top: 24px;
+}
+
+/* Rules for the first p element at the last column, at the last row at the 
+  grid of the bottom menu */
+.mobile-app-p {
+  margin-top: 14px;
+}
+
+/* Rules for the footer tag */
 footer {
-  margin-bottom: 400px;
-  font-size: 14px;
+  margin-bottom: 86px;
   text-align: center;
 }
 
+/* Rules for every element at the footer */
 .footer-element {
   margin: 0 10px;
   color: rgb(153, 153, 153);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   white-space: nowrap;
   padding: 10px 0px;
   text-decoration: none;
+  font-size: 11px;
+  position: relative;
+  top: 16px;
 }
 
+/* Rules for every element at the footer when the user hovers on it */
 .footer-element:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-/* ======================== */
-
-
-
-
-
-
-/* Selector for the main footer  */
+/* Selector for the nav element at the bottom of the page */
 .footer-nav {
   background-color: white;
   border: 1px solid black;
@@ -851,101 +917,43 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 56px;
+  height: 54px;
 }
 
+/* Selector for the nav element at the bottom of the page when the user hovers 
+  on it */
 .footer-nav:hover {
   cursor: pointer;
 }
 
-/* Selector for the div which contain */
+/* Selector for the div which contains */
 .main-footer {
   vertical-align: middle;
   margin-top: 20px;
 }
 
+/* Rules for the text at the middle of the nav at the bottom of the page */
+.text-subscribe {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  position: relative;
+  left: 120px;
+}
+
+/* Rules for the container at the bottom nav which contains a text and an 
+  icon */
 .subscribe-options {
   float: right;
   margin-right: 90px;
   font-size: 11px;
-}
-
-.text-subscribe {
-  font-size: 14px;
-}
-
-.subscribe {
   font-weight: bold;
   text-transform: uppercase;
+  font-family: sans-serif;
 }
 
+/* Rules for the arrow at the bottom nav */
 .subscribe-arrow {
   vertical-align: middle;
   margin-left: 30px;
 }
-
-/* Selector for the middle container  */
-.bottom-container {
-  margin: 80px auto;
-  padding: 8px 20px;
-  width: 1220px;
-  width: 1230px;
-  border: 4px solid yellow;
-}
-
-/* Selector for the left column/ Middle container  */
-.midle-container-left {
-  display: inline;
-  width: 870px;
-  /* width: 700px; */
-  height: 700px;
-  display: grid;
-  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-  background-color: #326891;
-  grid-column-gap: 14px;
-  grid-row-gap: 30px;
-}
-
-/* Selector for the grid elements left column / Mddle Container */
-.middle-container-left-item {
-  border: 4px solid green;
-  width: 274px;
-  height: 325px;
-}
-
-/* Selector for the right container ? Middle container  */
-.middle-container-rigth {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  display: inline;
-  width: 340px;
-  height: 700px;
-  /* background-color: green; */
-  float: right;
-}
-
-/* Selector for the cards inside middle container */
-.middle-container-card {
-  font-size: 10px;
-  text-align: right;
-  color: #777;
-}
-
-/* Selector for the spans which contains the text inside middle container */
-.middle-container-text {
-  display: block;
-  margin: 0;
-}
-
-/* Selector for the small tag which contains the data inside the cards / Middle container */
-.card-data {
-  font-weight: bold;
-  font-size: 11px;
-  color: #777;
-}
-
-.midle-container-card-text {
-  text-align: right;
-}
-
