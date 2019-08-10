@@ -1,0 +1,960 @@
+/* Selector for the navbar */
+.navbar {
+  background-color: white;
+  width: 100%;
+  height: 44px;
+  border-bottom: 1px solid #e2e2e2;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+/* Selector for the navbar elements */
+.navbar-element {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* Selector for the navbar elements when the user hovers on it */
+.navbar-element:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+/* Selector for the main logo */
+.main-logo {
+  height: 28px;
+  margin: 8px auto;
+  width: 194px;
+}
+
+/* Selector for the main logo when the user hovers on it */
+.main-logo:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Selector for the left navbar container */
+.left-navbar-container {
+  float: left;
+}
+
+/* Selector for the links inside the navbar */
+nav a:link {
+  position: relative;
+  bottom: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+/* Selector for the links inside the navbar when the user hovers on it */
+nav a:link:hover {
+  text-decoration: underline;
+  background: white;
+}
+
+/* Selector for the container for the buttons inside the navbar */
+.right-button-container {
+  float: right;
+}
+
+/* Selector for the buttons of the navbar */
+.navbar-button {
+  width: 64px;
+  height: 32px;
+  text-transform: uppercase;
+  margin: 6px 18px 6px 0;
+  color: white;
+  background: #6288a5;
+  border: 1px solid #326891;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+/* Selector for the subscribe now button */
+.subscribe-button {
+  left: 4px;
+  margin: 6px 8px;
+  position: relative;
+  width: 120px;
+}
+
+/* Selector for the buttons of the navbar when the user hovers on */
+.navbar-button:hover {
+  background-color: #326891;
+}
+
+/* Selector for the main section which contains all elements below navbar */
+.main-container {
+  width: 946px;
+  margin: 100px auto 0 auto;
+  height: 100%;
+}
+
+/* Selector for the spans inside h1 */
+.post-title {
+  font-size: 38px;
+  display: block;
+  font-style: italic;
+  font-weight: 500;
+  font-family: georgia, 'times new roman', times, serif;
+  margin-left: 173px;
+  letter-spacing: -1px;
+}
+
+/* Selector for the main image */
+.main-image {
+  width: 946px;
+  margin-top: 4px;
+}
+
+/* Selector for the container which contains the information about the pic */
+.photo-information-container {
+  width: 704px;
+}
+
+/* Selector for the span tag which containis photo information */
+.photo-information,
+.title-information {
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Selector for the information about the post author */
+.pic-author {
+  display: block;
+  font-size: 14px;
+  color: #888;
+  font-weight: 500;
+}
+
+/* Selector for the container of the article */
+.article-content-container {
+  width: 600px;
+  margin: 45px auto 0 auto;
+}
+
+/* Selector for the post author's name */
+.post-author {
+  font-size: 16px;
+  font-weight: bolder;
+  display: block;
+}
+
+/* Selector for the name of the author of the article */
+.author-name {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+/* Selector for the name of the author of the article when the user hovers on it */
+.author-name:hover {
+  text-decoration: none;
+}
+
+/* Selector for the container for top details of the article */
+.top-post-details-container {
+  margin-top: 10px;
+}
+
+/* Selector for the container which contains the date the article was posted */
+.post-date {
+  float: left;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #333;
+}
+
+/* Selector for the div containing the top post's icons */
+.top-icons-container {
+  display: inline;
+  float: right;
+  position: relative;
+  top: 18px;
+}
+
+/* Selector for the icons */
+span i {
+  width: 20px;
+  margin: 0 9px;
+}
+
+/* Selector for the icons when the user hovers on it */
+span i:hover {
+  cursor: pointer;
+}
+
+/* Selector for the container for the main text of the article */
+.post-text-container-one {
+  position: relative;
+  top: 28px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* Selector for the paragraphs of the main text of the article */
+.post-text-container-one p {
+  font-size: 20px;
+  clear: both;
+  font-family: georgia, 'times new roman', times, serif;
+  color: #333;
+}
+
+/* Selector for the links inside the content of the article */
+.in-paragraph-links {
+  color: #326891;
+  text-decoration: underline;
+  text-decoration-color: #326891;
+}
+
+/* Selector for the links inside the content of the article when the user hovers on it */
+.in-paragraph-links:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Rules for the container of the small notice inside the text of the article */
+.notice-container {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  height: 76px;
+  margin-top: -10px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+/* Rules for the paragraphs of the small notice inside the text of the article */
+.notice-container p {
+  color: #333;
+  font-weight: bold;
+  font-family: sans-serif, 'times new roman', times, serif;
+  font-size: 14px;
+  line-height: 4px;
+  position: relative;
+  top: 12px;
+  display: block;
+}
+
+/* Rules for the links of the small notice inside the text of the article */
+.notice-container .notice-link {
+  color: rgb(50, 104, 145);
+  display: block;
+}
+
+/* Rules for the links of the small notice inside the text of the article
+  when the user hovers on it */
+.notice-container .notice-link:hover {
+  cursor: pointer;
+}
+
+/* Rules for the container which draws the margins for the small notice inside
+  the main paragraphs */
+.margin-for-notice {
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+  width: 74px;
+  height: 76px;
+  position: absolute;
+  top: -1px;
+  left: 270px;
+}
+
+/* Rules for the containe of the second part of the main text */
+.post-text-container-two {
+  margin-top: 28px;
+}
+
+/* Rules for the h2 inside the second paragraph */
+.second-paragraph-h2 {
+  font-size: 20px;
+  line-height: 1.15px;
+  margin: 50px 0 30px 0;
+}
+
+/* Rules for the container for the text above the graphic */
+.middle-container {
+  width: 970px;
+  margin-top: 60px;
+  position: relative;
+}
+
+/* Rules for the h2 above the graphic in the middle of the main text */
+.graphic-h2 {
+  font-size: 20px;
+}
+
+/* Rules for the text above the graphic */
+.graphic-text {
+  position: absolute;
+  top: 14px;
+}
+
+/* Rules for the container of the graphic inside the main text */
+.graphic-container {
+  display: grid;
+  width: 100%;
+  height: 600px;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+  margin-top: 58px;
+  grid-gap: 0 14px;
+}
+
+/* Rules for the images inside the graphic inside the main text */
+.card-image {
+  width: 230px;
+}
+
+/* Rules for the paragraphs inside each card inside the graphic inside the main
+  text */
+.card-paragraph {
+  font-family: georgia, "times new roman", times, serif;
+  font-size: 13px;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+/* Rules for the bolded text inside each card inside the graphic inside the
+  main text */
+.bolded-span {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  line-height: 1;
+  font-size: 12px;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+/* Selector for the div we are using to have border efect above post author/ for the images inside the main text */
+.upper-border {
+  height: 40px;
+  width: 60px;
+  border-top: 1px solid black;
+  position: relative;
+  top: 10px;
+}
+
+/* Text containing the authors of the graphic inside the main text */
+.post-authors {
+  font-size: 14px;
+  position: relative;
+  bottom: 16px;
+  color: #333;
+}
+
+/* Rules for the container of the second part of the text */
+.main-text-second-part {
+  position: relative;
+  top: 16px;
+}
+
+/* Rules for the iframe containing the YouTube video */
+iframe {
+  margin-top: 28px;
+  border: none;
+}
+
+/* Selector for the credis below the YouTube video */
+.video-credits {
+  padding-bottom: 10px;
+}
+
+/* Selecotr for the image inside the second part of the main text */
+.in-text-image {
+  width: 600px;
+  height: 400px;
+  margin-top: 42px;
+}
+
+/* Selector for the text below the image inside the second part of the main text */
+.second-pic-info {
+  position: relative;
+  top: 4px;
+}
+
+/* Selector for the text of the authors of the image inside the second part of
+  the text */
+.second-pic-author {
+  font-size: 15px;
+  position: relative;
+  top: 8px;
+}
+
+/* Selector for the small text below the main content */
+.small-notice-end {
+  font-size: 13px;
+  margin-top: 24px;
+}
+
+/* Selector for the button at the bottom of the main text */
+.read-comments-button {
+  width: 332px;
+  height: 40px;
+  font-family: helvetica, arial, sans-serif;
+  margin-top: 28px;
+}
+
+/* Seletor for the icons located at the bottom of the main text */
+.icons-bottom {
+  margin-top: 22px;
+}
+
+/* Selector for the card bottom container */
+.card-bottom-container {
+  display: grid;
+  width: 1200px;
+  height: 1070px;
+  margin: 66px auto 0 auto;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 30px;
+}
+
+/* Selector for the span More in Space & Cosmos at the bottom card container */
+.card-header {
+  display: inline;
+}
+
+/* Selector for the span More in Space & Cosmos at the bottom card container
+  when the user hovers on it */
+.card-header:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Selector for the More in Space & Cosmos grid at the bottom card container */
+.space-and-cosmos-grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  width: 852px;
+  height: 670px;
+  grid-gap: 46px / 18px;
+}
+
+/* Selector for the images inside each card at the bottom card container */
+.bottom-card-image {
+  width: 275px;
+  height: 182px;
+}
+
+/* Selector for the images inside each card at the bottom card container when the user hovers on it */
+.bottom-card-image:hover {
+  cursor: pointer;
+}
+
+/* Selector for the small text below each image of a card in the bottom card container */
+.bottom-card-pic-author {
+  padding-bottom: 4px;
+  font-size: 11px;
+  margin: 3px 0 0;
+  text-align: right;
+  color: rgb(153, 153, 153);
+  line-height: 1.23em;
+  display: block;
+  position: relative;
+  right: 12px;
+}
+
+/* Selector for the small text below each image of a card in the bottom card container when the user hovers on it */
+.bottom-card-pic-author:hover {
+  cursor: pointer;
+}
+
+/* Selector for the title of each card at the bottom card container */
+.bottom-card-title {
+  line-height: 22px;
+  color: rgb(18, 18, 18);
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* Selector for the title of each card at the bottom card container when the
+  user hovers on it */
+.bottom-card-title:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Selector for the date in a card at the bottom card container */
+.bottom-card-date {
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+  position: relative;
+  top: 4px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+/* Selectpr for the title of right container */
+.column-card-element-title {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  border-top: 1px solid rgb(0, 0, 0);
+  padding: 20px 0 0 0;
+}
+
+/* Selector for  the most popular element grid */
+.most-popular-grid {
+  height: 820px;
+  display: grid;
+  grid-template-rows: repeat(10, 1fr);
+}
+
+/* Selector for the elements inside the right colum */
+.most-popular-element {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 20px;
+  color: rgb(18, 18, 18);
+  font-family: georgia, "times new roman", times, serif;
+  font-weight: bold;
+}
+
+/* Selector for the elements inside the right colum when the user hovers on
+  it */
+.most-popular-element:hover {
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* Selector for the container of the last row of the bottom card container */
+.editors-pick-bottom-container {
+  position: relative;
+  bottom: 218px;
+}
+
+/* Selector for the title of the bottom Editor's Pick section when the user hovers on it */
+.editor-pick-bottom-title:hover {
+  text-decoration: none;
+}
+
+/* Selector for the grid at the bottom of the bottom card container */
+.editors-pick-bottom-grid {
+  display: grid;
+  grid-template: 100% / repeat(3, 1fr);
+  width: 852px;
+  height: 335px;
+  grid-gap: 46px / 18px;
+}
+
+/* Selector for the right column container */
+.right-column-container {
+  width: 180px;
+  height: 100%;
+  float: right;
+  display: inline;
+}
+
+/* Selector for the container of the first element at the right column */
+.first-right-column-container {
+  position: absolute;
+  top: 1110px;
+  right: 80px;
+  z-index: 20;
+  width: 180px;
+}
+
+/* Selector for h1 headers at the right column */
+.right-column-h1 {
+  font-family: helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+/* Selector for the paragraphs at the right column */
+.right-column-p {
+  margin-bottom: 10px;
+  font-family: helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  font-size: 12px;
+}
+
+/* Selector for the buttons at the right column */
+.right-column-button {
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(98, 136, 165);
+  width: 100%;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13px;
+  height: 35px;
+  border: 1px solid rgb(98, 136, 165);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Selector for the buttons at the right column when the user hovers */
+.right-column-button:hover {
+  cursor: pointer;
+  background-color: #326891;
+}
+
+/* Selector for the header at the second element at the right column */
+.second-right-column-container-header {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+}
+
+/* Selector for the container of the second element in the right column */
+.second-right-column-container {
+  position: absolute;
+  top: 1648px;
+  right: 55px;
+}
+
+/* Selector for the grid of the second element in the right column */
+.grid-right-column {
+  display: grid;
+  grid-template: repeat(4, 77px) / 77px 1fr 1fr;
+  width: 212px;
+  height: 380px;
+  grid-gap: 20px 10px;
+  position: relative;
+  z-index: 9;
+}
+
+/* Rules for the images in the second element of the right column */
+.right-column-second-element-image {
+  width: 77px;
+  height: 77px;
+}
+
+/* Rules for the texts in the second element of the right column */
+.right-column-second-element-text {
+  font-family: georgia, "times new roman", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 17px;
+  width: 100%;
+  color: rgb(51, 51, 51);
+  padding-bottom: 16px;
+  position: relative;
+  top: 12px;
+}
+
+/* Rules for the texts in the second element of the right column when the user
+  hovers on it */
+.right-column-second-element-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Selector for the first image of the editor's pick element */
+.editor-pick-image_one {
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+/* Selector for the first text of the editor's pick element */
+.editor-pick-text-one {
+  grid-area: 1 / 2 / span 1 / span 2;
+}
+
+/* Selector for the second image of the editor's pick element */
+.editor-pick-image_two {
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+/* Selector for the second text of the editor's pick element */
+.editor-pick-text-two {
+  grid-area: 2 / 2 / span 1 / span 2;
+}
+
+/* Selector for the third image of the editor's pick element */
+.editor-pick-image_three {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+
+/* Selector for the third text of the editor's pick element */
+.editor-pick-text-three {
+  grid-area: 3 / 2 / span 1 / span 2;
+}
+
+/* Selector for the fourth image of the editor's pick element */
+.editor-pick-image_four {
+  grid-area: 4 / 1 / span 1 / span 1;
+}
+
+/* Selector for the fourth image of the editor's pick element when the user hovers on it */
+.editor-pick-image_four:hover {
+  cursor: pointer;
+}
+
+/* Selector for the fourth text of the editor's pick element */
+.editor-pick-text-four {
+  grid-area: 4 / 2 / span 1 / span 2;
+}
+
+/* Selector for the fourth text of the editor's pick element when the user hovers on it */
+.editor-pick-text-four:hover {
+  cursor: pointer;
+}
+
+/* Selector for the header of the ads at the editor's pick element */
+.ad-element-header {
+  color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 13px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Selector for the text of the ads at the editor's pick element */
+.ad-element-text {
+  color: #121212;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+/* Selector for the background of the ad at the second element in the right
+  column */
+.ad-background {
+  background: #f6f6f6;
+  width: 230px;
+  height: 100px;
+  position: absolute;
+  top: 331px;
+  right: -10px;
+}
+
+/* Selector for the bottom menu container */
+.menu-items-container {
+  padding: 0 0 10px -12px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 2px solid rgb(226, 226, 226);
+  width: 1200px;
+  margin: 62px auto 0 auto;
+}
+
+/* Selector for the container to add a thin border at the top of the bottom
+  menu container */
+.thin-border-container {
+  margin: 1px 0 0 0;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+/* Selector for the container which contains the New York Times logo at the
+  bottom menu container */
+.menu-item-logo {
+  padding-top: 10px;
+  width: 185px;
+  display: inline-block;
+}
+
+/* Selector for the Go To Home Page link to the right of the bottom menu
+  container */
+.go-to-homepage:link {
+  margin-top: 20px;
+  text-decoration: none;
+  color: rgb(98, 136, 165);
+  font-weight: 400px;
+  font-size: 11px;
+  float: right;
+  font-family: sans-serif;
+}
+
+/* Selector for the grid at the menu bottom container */
+.grid-container-menu-items {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+/* Selector for the containers of each column at the grid at the menu bottom
+  container */
+.menu-item-category {
+  line-height: 10px;
+}
+
+/* Selector for the container of the no header elements inside each column at
+  the grid at the bottom menu container */
+.no-header-menu-item-container {
+  position: relative;
+  bottom: 10px;
+  line-height: 12px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* Selector for the headers at the columns at the grid at the bottom menu */
+div.menu-item-category h5 {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 900;
+  font-family: sans-serif;
+  height: 25px;
+  line-height: 15px;
+  text-transform: uppercase;
+  width: 150px;
+  margin: 0;
+}
+
+/* Selector for the p elements at the columns at the grid at the bottom menu
+  when the user hoves on it */
+.menu-item-category p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Rules for the las column at the grid at the bottom menu */
+.menu-last-column {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+/* Rules for the second row at the last column at the grid at the bottom menu */
+.menu-last-columm-second-row {
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+/* Rules for the container of the icon and text at the last column at the grid
+  of the bottom menu */
+.menu-last-columm-icon-text-container {
+  margin-top: 20px;
+}
+
+/* Rules for the container of the icon and text at the last column at the grid
+  of the bottom menu when the user hovers on it */
+.menu-last-columm-icon-text-container:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Rules for the first container of the icon and text at the last column at the
+  grid of the bottom menu */
+.menu-last-column-icon-text-container-first {
+  margin-top: 12px;
+}
+
+/* Selector for the spans at the last column at the grid at the bottom menu */
+.menu-last-column-link {
+  font-size: 15px;
+  font-weight: bolder;
+  margin-left: 8px;
+  position: relative;
+  bottom: 2px;
+  width: 250px;
+}
+
+/* Rules for the p elements at the last column at the grid of the bottom menu */
+.bottom-menu-last-column-p {
+  display: inline-block;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 11px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: -10px;
+}
+
+/* Rules for the first p element at the last column at the grid of the bottom
+  menu */
+.bottom-menu-last-column-p-first-element {
+  margin-top: 24px;
+}
+
+/* Rules for the first p element at the last column, at the last row at the
+  grid of the bottom menu */
+.mobile-app-p {
+  margin-top: 14px;
+}
+
+/* Rules for the footer tag */
+footer {
+  margin-bottom: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+}
+
+/* Rules for every element at the footer */
+.footer-element {
+  margin: 0 10px;
+  color: rgb(153, 153, 153);
+  font-family: helvetica, arial, sans-serif;
+  white-space: nowrap;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 11px;
+  position: relative;
+  top: 16px;
+}
+
+/* Rules for every element at the footer when the user hovers on it */
+.footer-element:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Selector for the nav element at the bottom of the page */
+.footer-nav {
+  background-color: white;
+  border-top: 1px solid black;
+  text-align: center;
+  z-index: 30;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 54px;
+}
+
+/* Selector for the nav element at the bottom of the page when the user hovers
+  on it */
+.footer-nav:hover {
+  cursor: pointer;
+}
+
+/* Selector for the div which contains */
+.main-footer {
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+/* Rules for the text at the middle of the nav at the bottom of the page */
+.text-subscribe {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  position: relative;
+  left: 120px;
+}
+
+/* Rules for the container at the bottom nav which contains a text and an
+  icon */
+.subscribe-options {
+  float: right;
+  margin-right: 90px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+/* Rules for the arrow at the bottom nav */
+.subscribe-arrow {
+  vertical-align: middle;
+  margin-left: 30px;
+}

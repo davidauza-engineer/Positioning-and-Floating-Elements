@@ -1,8 +1,11 @@
----
 linters:
-    csslint:
-    stylelint:
-    eslint:
-      config: './eslint.config'
-    phpcs:
-      extensions: 'php,css'
+  stylelint:
+    config: 'stylelint.config.js'
+    fixer: true
+
+files:
+    ignore:
+        - 'normalize.css'
+        
+fixers:
+    enable: true
